@@ -9,4 +9,8 @@ The **complete pipeline** comprises using the TotalSegmentor https://github.com/
 2. create nnUNet_training/nnUNet_eval, nnUNet_training/predictions, nnUNet_training/preprocessed, nnUNet_training/raw, nnUNet_training/nnUNet_results folders
 3. download the model check points from "https://drive.google.com/drive/folders/1QNhIE2QYf7Z5CXueBFL_c62cW8q-9LpW?usp=sharing" and place in nnUNet_training/nnUNet_results 
 4. download the sarcopenia_test folder from "https://drive.google.com/drive/folders/1AsAi1goIVaCzryF9_v2oPc7T2HBiU7s3?usp=sharing" and place in the main directory. Use the directories in this folder for running the dummy_test pipeline
+5. pip install TotalSegmentator
+dummy_test_usage: 
+`bash sarcopenia_pipeline.sh -i /home/pankaj/AutoSkeletal_muscle-L3/sarcopenia_test/input_nii_image_dir -o /home/pankaj/AutoSkeletal_muscle-L3/sarcopenia_test/L3_mask_dir -s /home/pankaj/AutoSkeletal_muscle-L3/sarcopenia_test/L3_slice_dir -p /home/pankaj/AutoSkeletal_muscle-L3/sarcopenia_test/smi_dir -c /home/pankaj/AutoSkeletal_muscle-L3/sarcopenia_test/CSA_file.csv`
+General_usage
 `bash sarcopenia_pipeline.sh -i /path/to/ct_volume_dir -o /path/to/l3_masks_dir -s /path/to/output_l3_slice_dir -p /path/to/output_smi_dir -c /path/to/output_file.csv`
