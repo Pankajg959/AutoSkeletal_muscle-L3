@@ -15,6 +15,6 @@ General_usage
 `bash sarcopenia_pipeline.sh -i /path/to/ct_volume_dir -o /path/to/l3_masks_dir -s /path/to/output_l3_slice_dir -p /path/to/output_smi_dir -c /path/to/output_file.csv`
 
 dummy_test_usage: 
-`bash sarcopenia_pipeline.sh -i /home/pankaj/AutoSkeletal_muscle-L3/sarcopenia_test/input_nii_image_dir -o /home/pankaj/AutoSkeletal_muscle-L3/sarcopenia_test/L3_mask_dir -s /home/pankaj/AutoSkeletal_muscle-L3/sarcopenia_test/L3_slice_dir -p /home/pankaj/AutoSkeletal_muscle-L3/sarcopenia_test/smi_dir -c /home/pankaj/AutoSkeletal_muscle-L3/sarcopenia_test/CSA_file.csv`
+`bash sarcopenia_pipeline.sh -i /home/pankaj/AutoSkeletal_muscle-L3/sarcopenia_test/input_nii_image_dir -o /home/pankaj/AutoSkeletal_muscle-L3/sarcopenia_test/L3_mask_dir -s /home/pankaj/AutoSkeletal_muscle-L3/sarcopenia_test/L3_slice_dir -p /home/pankaj/AutoSkeletal_muscle-L3/sarcopenia_test/smi_dir -c /home/pankaj/AutoSkeletal_muscle-L3/sarcopenia_test/CSA_file.csv` (change the path according to your folder location)
 
 Data should be in nnUNet format (files should be in the format 0000_0000.nii.gz, 0001_0000.nii.gz, and so on)
