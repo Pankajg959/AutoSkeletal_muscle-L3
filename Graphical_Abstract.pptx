@@ -1,0 +1,38 @@
+Title: Comprehensive Deep Learning Pipeline for Automated Skeletal Muscle Segmentation & Sarcopenia Detection on Abdominal CT
+
+---
+
+**1. Data & Cohorts**  
+- Training: SAROS CT dataset, 550 scans/6516 slices.  
+- Testing: 601 CT scans from SAROS, TCIA, WAW-TACE, In-house: acute pancreatitis, IBD, gallbladder cancer, bile duct obstruction.  
+
+---
+
+**2. Pipeline Stages**  
+- L3 vertebra segmentation using TotalSegmentator  
+- Automated L3 slice extraction  
+- Skeletal muscle segmentation using nnU-Net  
+
+---
+
+**3. Evaluation Metrics**  
+- Expert qualitative scoring  
+- Dice coefficient  
+- Intersection Over Union  
+- Diagnostic accuracy for sarcopenia detection  
+
+---
+
+**4. Results**  
+- Segmentation accuracy: Dice 0.93–0.97, IoU up to 0.94.  
+- Expert: Vertebral segmentation 78–85% complete, muscle segmentation 90–92.6% excellent.  
+- Sarcopenia: Sensitivity 0.94–0.97, Specificity 0.84–0.97, AUC up to 0.92.  
+
+---
+
+**5. Subgroup Analysis**  
+- Consistent performance across disease conditions, CT protocols, contrast/non-contrast scans, radiation doses.  
+
+---
+
+*Placeholders for icons/graphics*
